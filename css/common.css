@@ -1,0 +1,65 @@
+@charset "uft-8";
+/* 문서에 최상단에 위치하게 할것 */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 패딩이나 마진을 키우더라도 박스크기가 커지는 걸 막을 수 있다 */
+}
+
+body
+{
+    color: #333;
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+/* CSS reset */
+
+#list1
+{
+    margin: 20px 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    list-style-position: inside;
+    overflow: hidden;
+}
+
+#list1 li
+{
+    border-bottom: 1px solid #999;
+    list-style-type: armenian;
+    padding: 0.3em 1em;
+}
+
+#list1>li:hover
+{
+    background: #CCC;
+}
+
+.btn1
+{
+    float: right;
+    border: none;
+    background-color: rgb(44, 110, 172);
+    color: aliceblue;
+    font-size: 0.8em;
+    padding: 0.2em 0.8em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn1:hover
+{
+    background-color: rgb(212, 11, 11);
+}
